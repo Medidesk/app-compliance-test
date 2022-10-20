@@ -25,3 +25,7 @@ jobs:
         restore-keys: ${{ runner.os }}-m2
     - name: 'Dependency Review'
       uses: actions/dependency-review-action@v2
+      allow-licenses:
+      - BSD-3-Clause
+      - MIT
+
