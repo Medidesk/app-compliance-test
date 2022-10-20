@@ -26,8 +26,5 @@ jobs:
     - name: 'Dependency Review'
       uses: actions/dependency-review-action@v2
       with:
-        allow-licenses:
-        - BSD-3-Clause
-        - MIT
-        - Apache-2.0
+        allow-licenses: BSD-3-Clause, MIT, Apache-2.0
 
